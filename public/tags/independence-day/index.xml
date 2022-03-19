@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Independence Day on Brown Photographic</title>
+    <link>http://example.org/tags/independence-day/</link>
+    <description>Recent content in Independence Day on Brown Photographic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jul 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/independence-day/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Independence Day Sunset</title>
+      <link>http://example.org/2016/07/04/</link>
+      <pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/2016/07/04/</guid>
+      <description>&lt;h2 id=&#34;i-put-the-kids-to-bed-then-drove-just-a-couple-of-miles&#34;&gt;I put the kids to bed then drove just a couple of miles&amp;hellip;&lt;/h2&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

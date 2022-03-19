@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/tags/boston/</loc>
+    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/gallery/</loc>
+    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2022/03/13/</loc>
+    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/landscapes/</loc>
+    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/north-shore/</loc>
+    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/</loc>
+    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/blog/</loc>
+    <lastmod>2016-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/fields/</loc>
+    <lastmod>2016-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/independence-day/</loc>
+    <lastmod>2016-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2016/07/04/</loc>
+    <lastmod>2016-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/ipswich/</loc>
+    <lastmod>2016-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/sunset/</loc>
+    <lastmod>2016-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/family-history/</loc>
+    <lastmod>2016-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2016/04/16/</loc>
+    <lastmod>2016-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2016/04/16/</loc>
+    <lastmod>2016-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/archives/</loc>
+  </url>
+  
+</urlset>

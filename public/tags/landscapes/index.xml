@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Landscapes on Brown Photographic</title>
+    <link>http://example.org/tags/landscapes/</link>
+    <description>Recent content in Landscapes on Brown Photographic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Mar 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/landscapes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gallery: Boston&#39;s North Shore</title>
+      <link>http://example.org/2022/03/13/</link>
+      <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/2022/03/13/</guid>
+      <description>&lt;h2 id=&#34;a-collection-of-photos-from-bostons-north-shore&#34;&gt;A collection of photos from Boston&amp;rsquo;s North Shore&lt;/h2&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

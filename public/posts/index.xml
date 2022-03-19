@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Brown Photographic</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on Brown Photographic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Mar 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gallery: Boston&#39;s North Shore</title>
+      <link>http://example.org/2022/03/13/</link>
+      <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/2022/03/13/</guid>
+      <description>&lt;h2 id=&#34;a-collection-of-photos-from-bostons-north-shore&#34;&gt;A collection of photos from Boston&amp;rsquo;s North Shore&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Independence Day Sunset</title>
+      <link>http://example.org/2016/07/04/</link>
+      <pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/2016/07/04/</guid>
+      <description>&lt;h2 id=&#34;i-put-the-kids-to-bed-then-drove-just-a-couple-of-miles&#34;&gt;I put the kids to bed then drove just a couple of miles&amp;hellip;&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wheelwrights - 125 Years</title>
+      <link>http://example.org/2016/04/16/</link>
+      <pubDate>Sat, 16 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/2016/04/16/</guid>
+      <description>&lt;h2 id=&#34;will-your-family-photos-you-take-now-be-available-in-125-years&#34;&gt;Will your family photos you take now be available in 125 years?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>World War 1 Fighter Planes and Wheelwrights</title>
+      <link>http://example.org/2016/04/16/</link>
+      <pubDate>Sat, 16 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/2016/04/16/</guid>
+      <description>&lt;h2 id=&#34;my-great-grandfather-and-great-great-grandfather&#34;&gt;My great-grandfather and great-great-grandfather&amp;hellip;&lt;/h2&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
