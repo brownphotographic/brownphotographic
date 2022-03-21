@@ -7,7 +7,7 @@ metaAlignment: center
 coverMeta: out
 date: 2022-03-13
 categories:
-- Gallery
+- Gallery - United States
 tags:
 - Boston
 - North Shore
