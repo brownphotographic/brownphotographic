@@ -1,0 +1,31 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "content",
+      "path": "[[workspace]]/content"
+    },
+    {
+      "title": "archetypes",
+      "path": "[[workspace]]/archetypes"
+    },
+    {
+      "title": "tranquilpeak",
+      "path": "[[workspace]]/themes/tranquilpeak"
+    },
+    {
+      "title": "posts",
+      "path": "[[workspace]]/content/posts"
+    },
+    {
+      "title": "archetypes",
+      "path": "[[workspace]]/themes/tranquilpeak/archetypes"
+    },
+    {
+      "title": "docs",
+      "path": "[[workspace]]/themes/tranquilpeak/docs"
+    }
+  ]
+}

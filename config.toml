@@ -37,7 +37,7 @@ canonifyurls = true
   # gravatarEmail = "info@brownphotographic.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "https://media-exp1.licdn.com/dms/image/C4D03AQGYy7uyJv-1nw/profile-displayphoto-shrink_200_200/0/1604448608684?e=1652918400&v=beta&t=8XZPeq5PproOs91x6km799sTT8XMPD4XwMf0iuvSuPg"
+  picture = "https://live.staticflickr.com/65535/51952863473_637c39ea8d_t.jpg"
   # Your Twitter username without the @. E.g : thibaudlepretre
   twitter = "britishrob"
 
