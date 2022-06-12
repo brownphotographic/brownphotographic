@@ -7,13 +7,13 @@ metaAlignment: center
 coverMeta: out
 date: 2005-06-20
 categories:
-- Gallery - United States
+  - Gallery - United States
 tags:
-- Maine
-- Landscapes
-
+  - Maine
+  - Landscapes
+lastmod: 2022-06-12T13:38:14.462Z
 ---
-A collection of photos from the state of Maine
+A collection of photos from the state of Maine from 2005 and onwards...
 ---
 <!--more-->
 
