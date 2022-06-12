@@ -18,12 +18,12 @@
   </url>
   
   <url>
-    <loc>http://example.org/categories/gallery/</loc>
+    <loc>http://example.org/categories/gallery-united-states/</loc>
     <lastmod>2022-03-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/2022/03/13/</loc>
+    <loc>http://example.org/2022/03/13/gallery-bostons-north-shore//</loc>
     <lastmod>2022-03-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,7 +63,7 @@
   </url>
   
   <url>
-    <loc>http://example.org/2016/07/04/</loc>
+    <loc>http://example.org/2016/07/04/independence-day-sunset//</loc>
     <lastmod>2016-07-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -79,17 +79,47 @@
   
   <url>
     <loc>http://example.org/tags/family-history/</loc>
-    <lastmod>2016-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2016-04-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/2016/04/16/</loc>
-    <lastmod>2016-04-16T00:00:00+00:00</lastmod>
+    <loc>http://example.org/2016/04/11/wheelwrights-125-years//</loc>
+    <lastmod>2016-04-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/2016/04/16/</loc>
-    <lastmod>2016-04-16T00:00:00+00:00</lastmod>
+    <loc>http://example.org/2016/03/16/world-war-1-fighter-planes-and-wheelwrights//</loc>
+    <lastmod>2016-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2005/06/20/gallery-maine//</loc>
+    <lastmod>2005-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/maine/</loc>
+    <lastmod>2005-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/california/</loc>
+    <lastmod>2002-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2002/10/20/gallery-scenic-california-2002//</loc>
+    <lastmod>2002-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/arizona/</loc>
+    <lastmod>2002-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2002/10/10/gallery-arizona-2002//</loc>
+    <lastmod>2002-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>

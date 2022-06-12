@@ -77,9 +77,36 @@
     <item>
       <title>Family History</title>
       <link>http://example.org/tags/family-history/</link>
-      <pubDate>Sat, 16 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/tags/family-history/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maine</title>
+      <link>http://example.org/tags/maine/</link>
+      <pubDate>Mon, 20 Jun 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/maine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>California</title>
+      <link>http://example.org/tags/california/</link>
+      <pubDate>Sun, 20 Oct 2002 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/california/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arizona</title>
+      <link>http://example.org/tags/arizona/</link>
+      <pubDate>Thu, 10 Oct 2002 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/arizona/</guid>
       <description></description>
     </item>
     
