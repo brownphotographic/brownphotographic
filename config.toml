@@ -1,6 +1,6 @@
-baseURL = "https://brownphotographic.com/"
+baseURL = "https://brownphotographic.com"
 languageCode = "en-us"
-title = "Brown Photographic - photography by Rob Brown"
+title = "Photography by Rob Brown - Brown Photographic"
 theme = "tranquilpeak"
 disqusShortname = "brownphotographic"
 # googleAnalytics = "UA-123-45"
@@ -30,7 +30,7 @@ canonifyurls = true
 # ------
 [author]
   name = "Rob Brown"
-  bio = "Amateur photographer and professional product manager"
+  bio = "Amateur photographer / professional product manager"
   job = "Product Manager"
   location = "Hamilton, MA USA"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog

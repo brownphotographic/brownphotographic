@@ -14,6 +14,5 @@
         "editor.minimap.enabled": false
     },
     "frontMatter.preview.host": "http://localhost:1313/",
-    "frontMatter.content.publicFolder": "static",
     "frontMatter.dashboard.openOnStart": true
 }
