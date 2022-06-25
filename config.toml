@@ -1,9 +1,9 @@
 baseURL = "https://brownphotographic.com"
 languageCode = "en-us"
-title = "Photography by Rob Brown - Brown Photographic"
+title = "Photography by Rob Brown"
 theme = "tranquilpeak"
 disqusShortname = "brownphotographic"
-# googleAnalytics = "UA-123-45"
+# googleAnalytics = ""
 paginate = 7
 canonifyurls = true
 
