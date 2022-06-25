@@ -23,5 +23,5 @@ As a child I remember playing in the remaining workshop with my grandfather (Rob
 Here are some photos and articles:
 
 {{< rawhtml >}}
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/brownphotographic/albums/72157663229687963" title="Bristol Fighters"><img src="https://live.staticflickr.com/1506/24944043863_53dfef2894_c.jpg" width="800" height="600" alt="Bristol Fighters"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/brownphotographic/albums/72157663229687963" title="Bristol Fighters"><img src="https://live.staticflickr.com/1500/24940226784_479127012a_b.jpg" width="1024" height="768" alt="Bristol Fighters"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 {{< /rawhtml >}}
