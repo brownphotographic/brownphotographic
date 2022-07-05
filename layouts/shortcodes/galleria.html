@@ -1,0 +1,22 @@
+<div class="galleria"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/plugins/flickr/galleria.flickr.min.js"></script>
+<style>
+    .galleria{ width: 800x; height: 600px; background: #000 }
+</style>
+
+<script type="text/javascript">
+  (function() {
+      Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+      Galleria.run('.galleria', {
+        flickr: 'set:{{ .Get "photoset_id" }}',
+        flickrOptions: {
+          sort: 'date-posted-asc',
+          imageSize: 'big',
+          description: false
+        }
+      });
+  });
+</script>

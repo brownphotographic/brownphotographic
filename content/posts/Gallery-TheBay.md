@@ -21,3 +21,5 @@ Last updated July 3, 2022
 {{< rawhtml >}}
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/brownphotographic/albums/72177720300279105" title="San Francisco Bay"><img src="https://live.staticflickr.com/65535/52125517509_14f976560d_h.jpg" width="1600" height="1200" alt="San Francisco Bay"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 {{< /rawhtml >}}
+
+{{< galleria photoset_id="72177720300279105">}}
