@@ -1,0 +1,77 @@
+{{- $.Scratch.Set "isTypeInMainSections" false -}}
+{{- if .IsPage -}}
+  {{- if in site.Params.mainSections .Type -}}
+    {{- $.Scratch.Set "isTypeInMainSections" true -}}
+  {{- end -}}
+{{- end -}}
+{{- if and (and ($.Scratch.Get "isTypeInMainSections") (lt .Site.Params.sidebarBehavior 3)) (or (and .Site.Params.clearReading (not .Params.clearReading)) .Params.clearReading) -}}
+  {{- .Scratch.Set "sidebarBehavior" (add .Site.Params.sidebarBehavior 3) -}}
+{{- else -}}
+  {{- .Scratch.Set "sidebarBehavior" .Site.Params.sidebarBehavior -}}
+{{- end -}}
+<!-- Fix hugo 0.17 expects ".Site.Author.gravatarEmail" whereas hugo 0.18 expects ".Site.Author.gravataremail" -->
+{{- if .Site.Author.gravatarEmail -}}
+  {{- .Scratch.Set "gravatarEmail" .Site.Author.gravatarEmail -}}
+{{- end -}}
+{{- if .Site.Author.gravataremail -}}
+  {{- .Scratch.Set "gravatarEmail" .Site.Author.gravataremail -}}
+{{- end -}}
+{{- if .Scratch.Get "gravatarEmail" -}}
+  {{- .Scratch.Set "authorPicture" (printf "https://www.gravatar.com/avatar/%s" (urlize (md5 (.Scratch.Get "gravatarEmail")))) -}}
+{{- else if .Site.Author.picture -}}
+  {{- .Scratch.Set "authorPicture" (absURL .Site.Author.picture) -}}
+{{- end -}}
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "head_start.html" . }}
+    {{ partial "schema.html" . }}
+    {{ partial "meta.html" . }}
+    <title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</title>
+
+    <link rel="icon" href="{{ with .Site.Params.favicon }}{{ . | absURL }}{{ else }}/favicon.png{{ end }}">
+    {{ with .OutputFormats.Get "RSS" }}
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ .RelPermalink }}">
+    {{ end }}
+
+    {{ with .Site.Author.googleplus }}
+      <link rel="publisher" href="https://plus.google.com/{{ . | urlize }}">
+    {{ end }}
+
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <!--EXTERNAL STYLES-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {{ if .Site.Params.comment.gitalk.enable }}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.7.2/gitalk.css" integrity="sha512-MLcK/YRapzET1qTBXrOiZE6bGBgtATMo2bIyalVJ8EKDEGNoeA3SPQkvWAR0zNS650YG13ocXBMeioDuZcSRuQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {{ end }}
+    <!--EXTERNAL STYLES END-->
+    <!--STYLES-->
+    <link rel="stylesheet" href="{{ "css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" | absURL }}" />
+    <!--STYLES END-->
+    {{ range .Site.Params.customCSS }}
+      {{ if isset . "href" }}
+        <link {{ if not (isset . "rel") }}rel="stylesheet" {{ end }}{{ range $key, $value := . }} {{ if eq $key "href" }}{{ (printf "%s=\"%s\"" $key ($value | absURL)) | safeHTMLAttr }}{{ else }}{{ (printf "%s=\"%s\"" $key (string $value)) | safeHTMLAttr }}{{ end }}{{ end }}>
+      {{ else }}
+        <link rel="stylesheet" href="{{ . | absURL }}">
+      {{ end }}
+    {{ end }}
+    {{ if .HasShortcode "galleria" }}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js" integrity="sha512-vRKUU1GOjCKOTRhNuhQelz4gmhy6NPpB8N41c7a36Cxl5QqKeB9VowP8S7x8Lf3B8vZVURBxGlPpvyiRHh+CKg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/plugins/flickr/galleria.flickr.min.js" integrity="sha512-RJXXLXU7ShN5wFetviNEP7+HRIyy+JUNzMyiiIFlw7RrZWrbGs6EmuoiHmn7sU912bbejzXQE240mfvT4knJ8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/classic/galleria.classic.min.js" integrity="sha512-CXnDPXpM4UrG0VW6ZO7JxTmpYksq5lGw6bO1N7cmNnwGM6LrVvZnR1shSMov2sm8+kkMTMi+ZYqc8qK208eD2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="galleria/dist/flickr/galleria.flickr.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/classic/galleria.classic.min.css" integrity="sha512-gow3UhXUJqqIJove0INwWGYHczVoqbUfozcCToxuy2c3IRbMzImXzwkMP4mrkZDiba6VHcdWYMXkjQQSKZz2BQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+          .galleria{ width: 800x; height: 600px; background: #000 }
+        </style>
+    {{- end -}}
+    {{ if or .Params.googleAnalytics.async .Params.ga.async }}
+      {{ template "_internal/google_analytics_async.html" . }}
+    {{ else }}
+      {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
+    {{ partial "head_end.html" . }}
+  </head>
